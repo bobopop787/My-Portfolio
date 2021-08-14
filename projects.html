@@ -1,6 +1,129 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Projects</title>
+    </head>
     <body>
-        <h1>My Projects</h1>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+            <div class="container-fluid">
+                <div class="circled-box">
+                    <a class="navbar-brand title">Andy's Portfolio</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <div class="pwrapper">
+            <div class="lefthead box-container"></div>
+            <div class="righthead box-container"></div>
+            <div class="header box-container">
+                <h1 class="title">Projects</h1>
+            </div>
+            <div class="leftcontent box-container">
+                <img src="images/pacmen.png" width="100%" class="pscreenshot">
+                <div class="psection ptitle">
+                    <h1 class="title smaller">PacMen Factory</h1>
+                </div>
+                <div class="psection">
+                    <p class="smallertext left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first project I made was <b>PacMen Factory</b>.
+                        In this project, you can create pacmen and animate them.
+                    </p>
+                    <br>
+                    <h5 class="title smallerer">How to use</h5>
+                    <p class="smallertext left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To create pacmen, use any of the
+                        <b>Add * Pacmen</b> buttons. To start the animation, click the
+                        <b>Start Game</b> button. You can also pause the game when the animation
+                        is running using the <b>Pause Game</b> button. You can also remove pacmen
+                        using any of the <b>Remove * Pacmen</b> buttons. More info can be found
+                        in the <em>readme.md</em> in the GitHub repo.
+                    </p>
+                    <br>
+                </div>
+                <div class="psection pbuttons btn-group">
+                    <a type="button" class="btn btn-outline-primary" href="https://github.com/bobopop787/PacMen-Factory/" target="_blank" rel="noreferrer noopener">Repository</a>
+                    <a type="button" class="btn btn-outline-primary" href="https://bobopop787.github.io/PacMen-Factory/" target="_blank" rel="noreferrer noopener">Live Webpage</a>
+                </div>
+            </div>
+            <div class="middlecontent box-container">
+                <img src="images/eyes.png" width="100%" class="pscreenshot">
+                <div class="psection ptitle">
+                    <h1 class="title smaller">Eye Exercise</h1>
+                </div>
+                <div class="psection">
+                    <p class="smallertext left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second project I made was the <b>Eye Exercise</b>.
+                        This project uses JavaScript to detect mouse movement.
+                    </p>
+                    <br>
+                    <h5 class="title smallerer">How to use</h5>
+                    <p class="smallertext left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, simply
+                        <b>move around your mouse on the webpage.</b> The eyes will constantly
+                        look towards where your mouse is.
+                    </p>
+                    <br>
+                </div>
+                <div class="psection pbuttons btn-group">
+                    <a type="button" class="btn btn-outline-primary" href="https://github.com/bobopop787/Eye-Exercise/" target="_blank" rel="noreferrer noopener">Repository</a>
+                    <a type="button" class="btn btn-outline-primary" href="https://bobopop787.github.io/Eye-Exercise/" target="_blank" rel="noreferrer noopener">Live Webpage</a>
+                </div>
+            </div>
+            <div class="rightcontent box-container">
+                <img src="images/bustracker.png" width="100%" class="pscreenshot">
+                <div class="psection ptitle">
+                    <h1 class="title smaller">Real Time Bus Tracker</h1>
+                </div>
+                <div class="psection">
+                    <p class="smallertext left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The final project I made was the <b>Real Time Bus Tracker</b>.
+                        This project uses MBTA's API to track the locations of buses in Boston.
+                    </p>
+                    <br>
+                    <h5 class="title smallerer">How to use</h5>
+                    <p class="smallertext left">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project, the red map
+                        markers show the current locations of buses in Boston. Note that
+                        these markers only update every 20 seconds. When the
+                        <b>Show stops between MIT and Harvard</b> button is clicked,
+                        the green marker will be animated and show the stops between
+                        MIT and Harvard.
+                    </p>
+                    <br>
+                </div>
+                <div class="psection pbuttons btn-group">
+                    <a type="button" class="btn btn-outline-primary" href="https://github.com/bobopop787/Real-Time-Bus-Tracker/" target="_blank" rel="noreferrer noopener">Repository</a>
+                    <a type="button" class="btn btn-outline-primary" href="https://bobopop787.github.io/Real-Time-Bus-Tracker/" target="_blank" rel="noreferrer noopener">Live Webpage</a>
+                </div>
+            </div>
+            <div class="leftfoot box-container">
+                <p class="smallertext left">Made by Andrew Chen</p>
+                <p class="smallertext left"><a href="mailto:bobopop787@gmail.com" target="_blank" rel="noreferrer noopener">bobopop787@gmail.com</a></p>
+            </div>
+            <div class="rightfoot box-container"></div>
+            <div class="footer box-container">
+            </div>
+        </div>
     </body>
 </html>
