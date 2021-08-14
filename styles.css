@@ -1,1 +1,209 @@
+body {
+    background-color: lightskyblue;
+    font-family: Roboto;
+}
 
+h10 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: black;
+    text-align: left;
+    margin: 10px 20px 0px;
+    font-size: 20px;
+}
+
+a {
+    font-size: 14px;
+    text-align: left;
+}
+
+iframe {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box-container {
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightskyblue;
+    background-color: rgb(175, 231, 231);
+}
+
+.circled-box {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: royalblue;
+    border-radius: 25%;
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-top: 1px;
+}
+
+.wrapper {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 120px;
+    grid-template-areas: 
+    'lefthead header header header header header header righthead'
+    'leftcontent leftcontent leftcontent leftcontent rightcontent rightcontent rightcontent rightcontent'
+    'leftfoot footer footer footer footer footer footer rightfoot';
+    color: lightskyblue;
+    text-align: center;
+    font-size: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pwrapper {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 120px;
+    grid-template-areas: 
+    'lefthead header header header header header header header righthead'
+    'leftcontent leftcontent leftcontent middlecontent middlecontent middlecontent rightcontent rightcontent rightcontent'
+    'leftfoot footer footer footer footer footer footer footer rightfoot';
+    color: lightskyblue;
+    text-align: center;
+    font-size: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    grid-area: header;
+    padding-top: 6px;
+    border-width: 10px 0px 4px;
+}
+
+.leftcontent {
+    grid-area: leftcontent;
+    border-radius: 5%;
+}
+
+.middlecontent {
+    grid-area: middlecontent;
+    border-radius: 5%;
+}
+
+.rightcontent {
+    grid-area: rightcontent;
+    border-radius: 5%;
+}
+
+.footer {
+    grid-area: footer;
+    border-width: 4px 0px;
+}
+
+.lefthead {
+    grid-area: lefthead;
+    border-radius: 20% 0% 0% 20%;
+    border-width: 10px 0px 4px 4px;
+}
+
+.righthead {
+    grid-area: righthead;
+    border-radius: 0% 20% 20% 0%;
+    border-width: 10px 4px 4px 0px;
+}
+
+.leftfoot {
+    grid-area: leftfoot;
+    border-radius: 20% 0% 0% 20%;
+    border-width: 4px 0px 4px 4px;
+    padding-top: 7px;
+}
+
+.rightfoot {
+    grid-area: rightfoot;
+    border-radius: 0% 20% 20% 0%;
+    border-width: 4px 4px 4px 0px;
+}
+
+.title {
+    font-family: Cabin;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: navy;
+}
+
+.title.smaller {
+    font-size: 95%;
+    text-decoration: none;
+    color: rgb(2, 140, 165);
+}
+
+.title.smallerer {
+    font-size: 75%;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-color {
+    background-color: rgb(32, 170, 255);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: mediumblue;
+}
+
+.nav-item {
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.smallertext {
+    font-size: 14px;
+    text-align: center;
+}
+
+.smallertext.left {
+    text-align: left;
+}
+
+.pscreenshot {
+    width: 100%;
+    height: auto;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.psection {
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 0px 1px;
+    margin: 0px;
+}
+
+.psection.ptitle {
+    background-color: springgreen;
+    padding-top: 7px;
+    border-width: 1px 0px;
+}
+
+.psection.pbuttons {
+    border-width: 0px;
+}
+
+.red {
+    color: red;
+}
+
+.btn {
+    border-width: 5%;
+    margin: 10px 0px;
+}
